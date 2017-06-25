@@ -28,16 +28,16 @@ As matrizes aqui são geradas de maneira randômica e a forma de paralelismo tam
 
 ##### a. Paralelização por linhas
 ```
-$./omp -l <numero_Linhas> <numero_Colunas> <numero_Threads>
+$./omp_matrix -l <numero_Linhas> <numero_Colunas> <numero_Threads>
 ```
 ##### b. Paralelização por colunas
 ```
-$./omp -c <numero_Linhas> <numero_Colunas> <numero_Threads>
+$./omp_matrix -c <numero_Linhas> <numero_Colunas> <numero_Threads>
 ```
 
 ##### c. Paralelização por operações
 ```
-$./omp -c <numero_Linhas> <numero_Colunas> <numero_Threads>
+$./omp_matrix -c <numero_Linhas> <numero_Colunas> <numero_Threads>
 ```
 
 #### 1.2 Menu de Ajuda
