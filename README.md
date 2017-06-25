@@ -37,7 +37,7 @@ $./omp_matrix -c <numero_Linhas> <numero_Colunas> <numero_Threads>
 
 ##### c. Paralelização por operações
 ```
-$./omp_matrix -c <numero_Linhas> <numero_Colunas> <numero_Threads>
+$./omp_matrix -o <numero_Linhas> <numero_Colunas> <numero_Threads>
 ```
 
 #### 1.2 Menu de Ajuda
