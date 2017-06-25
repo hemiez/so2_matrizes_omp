@@ -54,20 +54,12 @@ int main (int argc, char *argv[])
 	//	caso contrario, executar apenas se todos os parametros forem passados
 	if(argc == 5)
 	{
-		for(i=0; i<5; i++)
-			printf("argv[%d]: %s ", i, argv[i]);
-
-		printf("\n");
-
 		//atribui os parametros apenas se forem positivos
 		_nlin = (atoi(argv[2]) >= 0) ? atoi(argv[2]) : NLIN;
-		printf("passou n_lin = %d\n", _nlin);
 		_ncol = (atoi(argv[3]) >= 0) ? atoi(argv[3]) : NCOL;
-		printf("passou n_col = %d\n", _ncol);
 		_nthr = (atoi(argv[4]) >= 0) ? atoi(argv[4]) : NTHR;
-		printf("passou n_thr = %d\n", _nthr);
 
-		printf("lin: %d\n col: %d\n thr: %d\n", _nlin, _ncol, _nthr);
+		printf("lin: %d\ncol: %d\nthr: %d\n", _nlin, _ncol, _nthr);
 
 		//"-i" entra no modo de inserção: o usuario insere os numeros nas matrizes
 		if(!strcmp(argv[1], "-i"))
@@ -154,8 +146,6 @@ int main (int argc, char *argv[])
 			}
 		}
 	}
-	
-
 
 	//Medição de tempo e consumo de recursos antes das operações
 	gettimeofday(&inic, 0);
