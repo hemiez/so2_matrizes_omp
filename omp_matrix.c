@@ -19,12 +19,12 @@ Romão Martines				595071
 #include <sys/resource.h>
 #include <omp.h>
 
-//Atribuicao de valores default para o numero de linhas e o numero de colunas
+//Atribuicão de valores default para o número de linhas e o número de colunas
 #define NLIN 1500
 #define NCOL 1500
 #define NTHR 4
 
-//Definição do calculo de tempo de processamento de cada atividade
+//Definição do cálculo de tempo de processamento de cada atividade
 #define toSeconds(t) (t.tv_sec + (t.tv_usec/1000000.))
 
 //Declaração de variáveis globais
